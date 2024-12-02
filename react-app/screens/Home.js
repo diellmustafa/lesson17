@@ -5,8 +5,11 @@ const Home = ({navigation}) => {
     return(
         <View style={styles.container}>
             <Text>Welcome to home screen!</Text>
+
             <Button title="Go to About Screen" onPress={() => navigation.navigate('About')}></Button>
-            <Text>Drawer Navigation Button Functionality</Text>
+
+            <Text>Drawer Navigation Button Functionality</Text> 
+
             <Button title="Open Drawer" onPress={() => navigation.openDrawer()}></Button>
         </View>
     )
