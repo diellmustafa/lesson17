@@ -1,5 +1,6 @@
 import { Button } from "react-native-web";
 import { View, Text, StyleSheet, Button } from 'react-native';
+import Icon from "../Icon";
 
 const Home = ({navigation}) => {
     return(
@@ -17,6 +18,16 @@ const Home = ({navigation}) => {
 
             <Button title="Open Drawer" onPress={() => navigation.openDrawer()}></Button>
             </Swiper>
+            <View style={styles.iconsContainer}>
+                <Icon name="cellphone-iphone" iconText="Iphone"></Icon>
+                <Icon name="android" iconText="Samsung"></Icon>
+                <Icon name="laptop" iconText="Laptop Lenovo"></Icon>
+            </View>
+            <View style={styles.iconsContainer}>
+                <Icon name="tablet" iconText="tablet"></Icon>
+                <Icon name="mouse" iconText="mouse"></Icon>
+                <Icon name="keyboard" iconText="Keyboard"></Icon>
+            </View>
         </View>
     )
 }
@@ -44,6 +55,13 @@ const styles = StyleSheet.create({
     item: {
         flex: 1,
         justifyContent: 'center'
+    },
+    iconsContainer: {
+        width: '90%',
+        alignSelf: 'center',
+        marginTop: 30,
+        flexDirection: 'row',
+        justifyContent: 'space-between'       
     }
 });
 
