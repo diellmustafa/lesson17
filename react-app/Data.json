@@ -2,25 +2,25 @@
 "popularProducts" : [
     {
         "id": 1,
-        "name": "Tablet",
+        "name": "Ipad pro 2",
+        "category": "tablet",
         "price": "990$",
-        "category": "Tablet",
         "image": "",
         "desc": "This is a tablet that costs 990$ and is very good!"
     },
     {
         "id": 2,
         "name": "Iphone 16",
-        "price": "1270$",
         "category": "phone",
+        "price": "1270$",
         "image": "",
         "desc": "This is a phone that costs 1270$ and is very good!"
     },
     {
         "id": 3,
         "name": "Samsung A22",
+        "category": "phone",
         "price": "1100$",
-        "category": "samsung phone",
         "image": "",
         "desc": "This is a samsung phone that costs 1100$ and is very good!"
     }
