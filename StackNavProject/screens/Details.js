@@ -6,8 +6,12 @@ const Details = ({navigation}) => {
         <View>
             <Text>Welcome to Details Screen</Text>
             <Button
-            title='Go to the other page'
+            title='Go to Home page'
             onPress={()=>navigation.navigate("Home")}
+            />
+            <Button
+            title='Go to About page'
+            onPress={()=>navigation.navigate("About")}
             />
         </View>
     )
